@@ -1,0 +1,36 @@
+{
+  "name": "@dworkman/styc",
+  "version": "1.0.1",
+  "description": "Spotify to Youtube Converter. A CLI package that will convert a spotify playlist into a youtube one.",
+  "main": "./bin/index.js",
+  "type": "module",
+  "scripts": {},
+  "author": "Daniel Workman",
+  "license": "MIT",
+  "keywords": [
+    "cli",
+    "nodeJS",
+    "javascript",
+    "yargs",
+    "puppeteer",
+    "googleapis",
+    "ora",
+    "puppeteer-extra",
+    "puppeteer-extra-plugin-stealth"
+  ],
+  "bin": {
+    "styc": "./bin/index.js"
+  },
+  "devDependencies": {
+    "eslint": "^8.50.0",
+    "prettier": "^3.0.3"
+  },
+  "dependencies": {
+    "googleapis": "^105.0.0",
+    "ora": "^7.0.1",
+    "puppeteer": "^21.4.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "yargs": "^17.7.2"
+  }
+}
