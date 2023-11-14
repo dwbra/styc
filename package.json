@@ -1,6 +1,6 @@
 {
   "name": "@dworkman/styc",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Spotify to Youtube Converter. A CLI package that will convert a spotify playlist into a youtube one.",
   "main": "./bin/index.js",
   "type": "module",
